@@ -5,6 +5,7 @@ You will need to install R to run the script.
 
 ### Using the Script
 run_analysis.R needs to be placed in the root directory of the "UCI HAR Dataset". Inside R, set your working directory to this same folder, source the script, and run run_analysis(). The script works as follows:
+
 1. It reads in the test and training data and merges them into one large data frame
 2. It creates a new data frame that consists of the subject id, the action being performed, and the 66 variables that have -mean or -std in their name (these names come from features.txt in the original data files)
 3. The columns of data frame are labelled
